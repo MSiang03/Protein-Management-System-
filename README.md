@@ -1,33 +1,36 @@
 # Protein-Management-System-
 X-Protein是一个可以管理蛋白质序列的界面。其主要功能有将用户提供的文件存进数据库、按页浏览收录的蛋白质、检索蛋白质序列、蛋白质相似度的计算。
 
-预下载包
+**预下载包**
 
-安装MySQL可到https://dev.mysql.com/downloads/下载。（确保电脑可以运行MySQL,可看教程）
+安装MySQL可到<a href='https://dev.mysql.com/downloads/' target='_blank' class='url'>https://dev.mysql.com/downloads/</a>下载。（确保电脑可以运行MySQL,可看教程）
 
-编译源程序
+**编译源程序**
 
 下载源程序。
 打开src/login_register/LoginForm.java，即可进行编译
-运行jar
+
+**运行jar**
 
 将下载好的jar任意放到一个目录下
 点击路径，输入cmd
 点击回车，直接跳到当前路径
 输入 java -jar Protein_Dashboard.jar, 回车
-测试已实现功能
 
-X-Protein用户登入与注册
+**测试已实现功能**
+
+<strong>X-Protein用户登入与注册</strong>
+
 开始运行程序后会弹出Login窗口
 
-image-20231226005339886
+<img src="C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20231226005339886.png" alt="image-20231226005339886" style="zoom: 67%;" />
 新用户点击Register进行注册
 
 image-20231226005402353
 成为用户后，输入密码便可以登入了(输入错误会弹出窗口提示)
 
 image-20231226004821588
-将用户提供的文件或输入解析后存进数据库
+2. 将用户提供的文件或输入解析后存进数据库
 单击Import按钮
 
 复制文件的路径（注意：文件必须是.txt文件，格式可以参见cafa3_partial_data.txt)
